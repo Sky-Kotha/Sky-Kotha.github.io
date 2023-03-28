@@ -1,9 +1,253 @@
 <html>
- 
-<body>
-  <h1>Sky_Kotha</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+ <head>
+    <meta charset="utf-8">
+    <title>My Short Note's</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>My Cheatsheet</h1>
+    <div id="one">
+    <h2>Table</h2>
+    <table>
+        
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Elements</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&lt;table&gt;</td>
+                <td>Table</td>
+                <td>The wrapper element for all HTML tables.</td>
+            </tr>
+            <tr>
+                <td>&lt;th&gt;</td>
+                <td>Table Head</td>
+                <td>The thead tag is used to group header content in an HTML table.</td>
+            </tr>
+            <tr>
+                <td>&lt;tr&gt;</td>
+                <td>Table Row</td>
+                <td>The set of rows defining the column headers in a table.</td>
+            </tr><tr>
+                <td>&lt;td&gt;</td>
+                <td>Table Data</td>
+                <td>The td tag defines a standard cell in an HTML table.</td>
+            </tr>
+            <tr>
+                <td>&lt;tbody&gt;</td>
+                <td>Table Body</td>
+                <td>The tbody tag is used to group the body content in an HTML table.</td>
+            </tr>
+            <tr>
+                <td>&lt;thead&gt;</td>
+                <td>Table Heading</td>
+                <td>A table header is defined with the th tag.</td>
+            </tr>
+            <tr>
+                <td>&lt;tfoot&gt;</td>
+                <td>Table Footer</td>
+                <td>The foot tag is used to group footer content in an HTML table.</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        
+        <thead>
+            <tr>
+                <th>Attributes</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody><tr>
+            <td>Rowspan</td>
+            <td>The rowspan attribute specifies the number of rows a cell should span.</td>
+        </tr>
+        <tr>
+            <td>Colspan</td>
+            <td>The colspan attribute defines the number of columns a cell should span.</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+    <div  id="two">
+    <h2>Positioning and Display</h2>
+    <table>   
+        <thead>
+            <tr>
+                <th>Properties</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Z-index</td>
+                <td>Control the stacking order of elements—higher number is closer.</td>
+            </tr>
+            <tr>
+                <td>Fixed</td>
+                <td>Forces an element to not move when the page is scrolled.</td>
+            </tr>
+            <tr>
+                <td>Absolute</td>
+                <td>Move an element around based on coordinates.</td>
+            </tr>
+            <tr>
+                <td>Relative</td>
+                <td>The element is positioned relative to its normal position.</td>
+            </tr>
+            <tr>
+                <td>Float</td>
+                <td>It determines how far left/right an element should float within its parent element.</td>
+            </tr>
+            <tr>
+                <td>Block-level</td>
+                <td>Take up the full width of their container, margin, padding &amp; width work.</td>
+            </tr>
+            <tr>
+                <td>Inline</td>
+                <td>Allows other elements beside; margin, padding &amp; width don’t work.</td>
+            </tr>
+            <tr>
+                <td>Inline-block</td>
+                <td>Allows other elements beside; margin, padding &amp; width work. Can create columns, but will force a
+                    space between boxes.</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <div id="three">
+    <h2>Box-Model</h2>
+    <table>
+        
+        <thead>
+            <tr>
+                <th>Properties</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Content-box</td>
+                <td>The default box calculation math puts the padding &amp; border outside the width set in CSS.</td>
+            </tr>
+            <tr>
+                <td>Border-box</td>
+                <td>Simplifies the responsive math by making the width of a box, as set in CSS, not change by adding padding and border.</td>
+            </tr>
+            <tr>
+                <td>Padding</td>
+                <td>Padding is the space between the content area and the border. It can be set in pixels or percent.</td>
+            </tr>
+            <tr>
+                <td>Margin</td>
+                <td>Margin is the amount of spacing outside of an element’s border.</td>
+            </tr>
+            <tr>
+                <td>Overflow</td>
+                <td>Control how elements that break out the edges of the box are dealt with.
+            </td></tr>
+        </tbody>
+    </table>
+    </div>
+    <div id="four">
+    <h2>flex-Box</h2>
+    <table>
+        
+        <thead>
+            <tr>
+                <th>Properties</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="color-axis">
+                <th class="align-text" colspan="4">Main axis/horizontal</th>
+            </tr>
+            <tr>
+                <td>Justify-content</td>
+                <td></td>
+                <td>This defines the alignment along the main axis.</td>
+            </tr>
+            <tr>
+                <td>Flex-wrap</td>
+                <td></td>
+                <td>By default, flex items will all try to fit onto one line. You can change that and allow the items to wrap as needed with this property.</td>
+            </tr>
+            <tr>
+                <td>Flex-grow</td>
+                <td></td>
+                <td>This defines the ability for a flex item to grow if necessary.</td>
+            </tr>
+            <tr>
+                <td>Flex-shrink</td>
+                <td></td>
+                <td>This defines the ability for a flex item to shrink if necessary.</td>
+            </tr>
+            <tr>
+                <th class="align-text" colspan="4">Cross axis/vertical</th>
+            </tr>
+            <tr>
+                <td>Align-items</td>
+                <td></td>
+                <td>Think of it as the justify-content version for the cross axis.</td>
+            </tr>
+            <tr>
+            </tr><tr>
+                <td id="color-content" rowspan="6">Align-content</td>
+                <td>flex-start</td>
+                <td>Elements will be positioned at the top of the parent container with no space in-between.</td>
+            </tr>
+            <tr>
+                <td>flex-end</td>
+                <td>Elements will be positioned at the bottom of the parent container with no space in-between.</td>
+            </tr>
+            <tr>
+                <td>Center</td>
+                <td>Elements will be positioned at the center of the parent container with no space in-between.</td>
+            </tr>
+            <tr>
+                <td>Space-between</td>
+                <td>Elements will be positioned on top and bottom with space between them.</td>
+            </tr>
+            <tr>
+                <td>Space-around</td>
+                <td>Elements will be positioned with even space between them and from top and bottom.</td>
+            </tr>
+            <tr>
+                <td>Stretch</td>
+                <td>If min-height or no height is specified, elements will stretch to fill the gap between top and bottom of parent container.</td>
+            </tr>
+            <tr>
+                <th colspan="4">Direction</th>
+            </tr>
+            <tr>
+                <td id="color-content" rowspan="4">Flex-Direction</td>
+                <td>Row</td>
+                <td>The flexbox items are ordered the same way as the text direction, along the main axis.</td>
+            </tr>
+            <tr>
+                <td>Row-reverse</td>
+                <td>The flexbox items are ordered the opposite way as the text direction, along the main axis.</td>
+            </tr>
+            <tr>
+                <td>Column</td>
+                <td>The flexbox items are ordered the same way as the text direction, along the cross axis.</td>
+            </tr>
+            <tr>
+                <td>Column-reverse</td>
+                <td>The flexbox items are ordered the opposite way as the text direction, along the cross axis.</td>
+            </tr>
+
+        </tbody>
+    </table>
+    </div>
+  </body>
 </html>
